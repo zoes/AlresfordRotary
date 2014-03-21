@@ -76,7 +76,7 @@ function zaptpi_add_string($values, $title, $text, $id){
 	<p style="color: #7a7a7a"><?php echo $text ?></p>
 	<p>
 		<input type="text" name=<?php echo $id ?> id=<?php echo $id ?>
-			value="<?php echo $dd; ?>" size=80 />
+			value="<?php echo $dd; ?>" size=50 />
 	</p>
 	<br>
     <?php

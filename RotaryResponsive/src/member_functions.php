@@ -29,7 +29,7 @@ function create_members_post_type() {
 	        'taxonomies' => array('category'),
 	        'rewrite' => array('slug'=>'members'),
 			'supports' => array(
-					'title', 'page-attributes', 'thumbnail', 'editor', 'revisions', 'excerpt'
+					'title', 'page-attributes', 'thumbnail', 'editor', 'revisions',
 	        ),
 	)
 	);
