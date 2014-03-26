@@ -33,7 +33,7 @@ if ( $the_query->have_posts() ) {
 		
 		echo get_the_post_thumbnail ( $post_id, $size, $attr );
 		echo '<div id="link-container"><h4><a href="' . get_permalink ( $post_id ) . '">' . get_the_title ( $post_id ) . '</a></h4></div>';
-		echo "<p>" .get_the_excerpt(). "</p>";
+		echo '<p class="front-text-container">' .get_the_excerpt(). '</p>';
 		echo '</div>';
 		echo '</div>';
 		

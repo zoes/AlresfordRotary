@@ -74,6 +74,11 @@ License URI: license.txt
 	color: #cdcdcd;
 }
 
+/* Attempting to level front page boxes */
+p.front-text-container {
+	min-height:100px;
+}
+
 
 
 
