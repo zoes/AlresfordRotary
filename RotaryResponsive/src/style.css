@@ -14,43 +14,43 @@ License URI: license.txt
 -------------------------------------------------------------- */
 /* Needed to make the images center properly when wrapped in a link */
 #widgets a {
-    display: inline;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
 }
 
 /* Push the top down a bit because of the login bar */
 #header {
-	padding-top:30px;
+	padding-top: 30px;
 }
 
 /* Just so as the twitter stream is not right at the edge of the container */
 #twitter-box {
-	padding-right:10px;
-	padding-left:10px;
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 /*Back link on members/activities pages*/
 .right {
-	float:right;
+	float: right;
 }
 
-#link-container{
-	text-align:center;
+#link-container {
+	text-align: center;
 }
 
 /* Between rows of images */
 #linebreak {
-	width:100%;
-	height:2px;
-	background-color:#FFFFFF;
-	display:inline-block;
+	width: 100%;
+	height: 2px;
+	background-color: #FFFFFF;
+	display: inline-block;
 }
 
-
 #archive-summary {
-	text-align:center;
+	text-align: center;
 }
 
 /* override front page styling */
@@ -58,16 +58,18 @@ License URI: license.txt
 	padding-left: 40px;
 	text-align: left;
 }
+
 .featured-subtitle {
 	padding-left: 40px;
 	text-align: left;
 }
+
 #featured p {
 	text-align: left;
 }
 
 .call-to-action {
-	display:none;
+	display: none;
 }
 
 #charity-number {
@@ -76,22 +78,79 @@ License URI: license.txt
 
 /* Attempting to level front page boxes */
 p.front-text-container {
-	min-height:100px;
+	min-height: 100px;
 }
 
+/* Override login box styles */
+#loginbar {
+	width: 100%;
+	display: inline-block;
+}
 
+#wplb_wrap {
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	font-style: normal;
+}
 
+#wplb_main {
+	float: right;
+	margin-right: 0;
+	padding-right: 0;
+	padding-left: 0;
+	width: 100%;
+	min-height: 45px;
+	background: #010007;
+}
 
+#wplb_main form {
+	margin: 0
+}
 
+#wplb_wrap .wplb_field {
+	padding: 0px;
+	width: 48%;
+	margin-right: 0;
+	margin-left: 2%;
+	margin-top: 0px;
+	background: #d2c194;
+	box-shadow: 0 1px 0 #9d8a56, 0 1px 1px rgba(0, 0, 0, 0.2) inset;
+}
 
+#wplb_wrap .wplb_pass {
+	width: 48%;
+	margin-right: 0;
+	margin-left: 2%;
+}
 
+#wplb_wrap .wplb_button {
+	float: right;
+	background: #9d8a56;
+	border: 1px #a39161 solid;
+	text-shadow: none;
+}
 
+#wplb_wrap .wplb_link {
+	background: #a39161;
+}
 
+#wplb_wrap .wplb_link:hover {
+	background: #3d7fb7;
+}
 
+/* Make sure that the logo stay to the left on small screens so as not to conflict with login */
+@media
+screen
+and
+(max-width:
+650px)
+{
+#logo {
+	margin: 0;
+	text-align: left;
+}
 
-
-
-
-
+}
 
 /*The last 29 days of the month are the hardest."- Nikola Tesla*/

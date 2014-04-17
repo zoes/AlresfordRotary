@@ -53,6 +53,11 @@ if( !defined( 'ABSPATH' ) ) {
 
 <?php responsive_header(); // before header hook ?>
 	<div id="header">
+	
+	    <?php if (function_exists('wplb_login')) {
+	    	echo '<div id="loginbar">';
+	    	wplb_login();
+	        echo '</div>'; } ?>
 
 		<?php responsive_header_top(); // before header content hook ?>
 
